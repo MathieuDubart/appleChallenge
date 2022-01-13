@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -112,6 +113,12 @@ body {
     /* border: solid 1px crimson; */
 }
 
+#rainbow {
+    background: -webkit-linear-gradient(#FF33EC, #33A2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #headerDescription {
     height: 62px;
     width: 420px;
@@ -157,11 +164,11 @@ body {
     font-size: 50px;
     font-weight: 500;
     margin-top: 64px;
-    border: crimson 1px solid;
+    /* border: crimson 1px solid; */
 }
 
 #productsContent {
-    border: cyan 1px solid;
+    /* border: cyan 1px solid; */
     display: flex;
     width: 1140px;
     height: 350px;
@@ -169,19 +176,20 @@ body {
 }
 
 #productsDescripiton {
-    height: 50px;
+    height: 70px;
     width: 240px;
-    font-size: 18px;
+    font-size: 22px;
     opacity: 0.9;
     font-weight: 300;
     color: black;
-    border: darkorange 1px solid;
+    /* border: darkorange 1px solid; */
 }
 
 #iPhone13Pro {
     height: 350px;
     width: 300px;
-    border: blue 1px solid;
+    position: absolute;
+    /* border: blue 1px solid; */
 }
 
 #iPhone13Pro img {
@@ -192,11 +200,68 @@ body {
 #iPhone13 {
     height: 350px;
     width: 300px;
-    border: 1px solid crimson;
-    margin-left: 150px;
+    position: absolute;
+    /* border: blue 1px solid; */
 }
 
 #iPhone13 img {
     height: 100%;
     width: 100%;
+}
+
+.arrivalsTitle {
+    margin-top: 130px;
+    font-size: 55px;
+    position: relative;
+    margin-left: 45px;
+    color: rgb(238, 238, 238);
+}
+
+#i13proContainer {
+    /* border: 1px solid chartreuse; */
+    height: 350px;
+    width: 460px;
+    text-align: center;
+}
+
+#i13Container {
+    /* border: 1px solid yellow; */
+    height: 350px;
+    width: 460px;
+    text-align: center;
+}
+
+.blackText {
+    color: black;
+}
+
+#productsFooter {
+    display: inline-flex;
+    width: 1140px;
+    height: 25px;
+    /* border: orangered 1px solid; */
+    align-items: center;
+    ;
+}
+
+#productsPagination {
+    opacity: 0.6;
+}
+
+#productsNext {
+    margin-left: 150px;
+    font-size: 20px;
+    display: inline-flex;
+}
+
+#productsRightContainer {
+    display: flex;
+    align-items: center;    
+}
+
+#productsRightContainer img {
+    margin-left: 9px;
+    height: 16px;
+    width: 9px;
+    transform: rotate(270deg);
 }
