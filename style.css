@@ -32,6 +32,11 @@ a:visited{
     margin-top: 64px;
 }
 
+.smallTitles {
+    font-size: 55px;
+    font-weight: 500;
+}
+
 #headerContainer {
     height: 100vh;
     width: 100%;
@@ -306,7 +311,6 @@ a:visited{
     align-items: center;
     /* border: #FF33EC 1px solid; */
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
 }
@@ -348,7 +352,7 @@ a:visited{
     /* border: crimson 1px solid; */
     height: 400px;
     width: 500px;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 136px;
     display: flex;
     flex-direction: row;
@@ -399,4 +403,152 @@ a:visited{
 .serviceDescription {
     font-size: 18px;
     opacity: 0.7;
+}
+
+/***************************************************/
+/**************** Shot on iPhone ******************/
+/*************************************************/
+
+#shotOnIphone {
+    height: 1034px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: yellow 1px solid; */
+
+}
+
+#shotOnIphoneTitle {
+    width: 1140px;
+    height: 60px;
+    /* border: crimson 1px solid; */
+}
+
+#shotOnIphoneDesc {
+    font-size: 18px;
+    opacity: 0.7;
+    width: 800px;
+    /* border: orange 1px solid; */
+}
+
+#shotOnIphonePicturesContainer {
+    width: 100%;
+    /* border: crimson 1px solid; */
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+#shotOnIphonePictures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: springgreen solid 1px; */
+    width: 100%;
+}
+
+#soi4Container {
+    display: none;
+}
+
+.soiContainer img {
+    height: 400px;
+    width: 350px;
+    /* border: white 1px solid; */
+    object-fit: contain;
+}
+
+#shotOnIphoneFooter {
+    display: flex;
+    width: 1140px;
+    height: 200px;
+    margin-top: 80px;
+    /* border: palegreen 1px solid; */
+}
+
+#shotOnIphoneFooterTitle {
+    height: 60px;
+    width: 360px;
+    margin-bottom: 50px;
+    /* border: crimson 1px solid; */
+}
+
+#shotOnIphoneSubtitle {
+    font-size: 18px;
+    opacity: 0.7;
+    width: 359px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#soiLearnMore {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 17px;
+    height: 25px;
+    width: 130px;
+    /* border: blueviolet 1px solid; */
+}
+
+#soiLearnMore img {
+    width: 10px;
+    height: 14px;
+    position: relative;
+    left: 5px;
+    top: 2.5px;
+    transform: rotate(270deg);
+}
+
+#shotOnIphonePagination {
+    /* border: olivedrab 1px solid; */
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 128px;
+}
+
+#soiPages {
+    /* border: orchid 1px solid; */
+}
+
+#soiSwiper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#soiLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+#soiLeft img {
+    transform: rotate(90deg);
+    position: relative;
+    left: -1px;
+}
+
+#soiRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+#soiRight img {
+    transform: rotate(270deg);
+    position: relative;
+    left: 1px;
 }
