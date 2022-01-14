@@ -11,6 +11,12 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+.bigTitles {
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 64px;
+}
+
 #headerContainer {
     height: 100vh;
     width: 100%;
@@ -114,7 +120,7 @@ body {
 }
 
 #rainbow {
-    background: -webkit-linear-gradient(#FF33EC, #33A2FF);
+    background: -webkit-linear-gradient(0deg, rgb(86, 131, 255) -10%, rgb(43,220,90) 110%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -161,9 +167,6 @@ body {
 #productsTitle {
     width: 1140px;
     height: 60px;
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 64px;
     /* border: crimson 1px solid; */
 }
 
@@ -241,7 +244,7 @@ body {
     height: 25px;
     /* border: orangered 1px solid; */
     align-items: center;
-    ;
+    margin-top: 48px;
 }
 
 #productsPagination {
@@ -264,4 +267,97 @@ body {
     height: 16px;
     width: 9px;
     transform: rotate(270deg);
+}
+
+/***************************************************/
+/******************** Services ********************/
+/*************************************************/
+
+
+#services {
+    height: 493px;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #FF33EC 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicesTitle {
+    height: 188px;
+    width: 458px;
+    font-size: 45px;
+    /* border: orange 1px solid; */
+}
+
+#moreServices {
+    font-size: 17px;
+}
+
+#moreServices img {
+    width: 10px;
+    height: 14px;
+    transform: rotate(270deg);
+}
+
+#servicesContent {
+    /* border: crimson 1px solid; */
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 136px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#appleMusic {
+    height: 50%;
+    width: 200px;
+    /* border: brown 1px solid; */
+}
+
+#appleTV {
+    height: 50%;
+    width: 200px;
+    margin-left: 50px;
+    /* border: brown 1px solid; */
+}
+
+#appleNews {
+    height: 50%;
+    width: 200px;
+    /* border: brown 1px solid; */
+}
+
+#icloud {
+    height: 50%;
+    width: 200px;
+    margin-left: 50px;
+    /* border: brown 1px solid; */
+}
+
+.serviceName {
+    font-size: 25px;
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.serviceTitleSpan {
+    margin-left: 10px;
+}
+.serviceLogo {
+    height: 30px;
+    width: 30px;
+}
+
+.serviceDescription {
+    font-size: 18px;
+    opacity: 0.7;
 }
