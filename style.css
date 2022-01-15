@@ -27,13 +27,13 @@ a:visited{
 }
 
 .bigTitles {
-    font-size: 55px;
+    font-size: 3.5rem;
     font-weight: 500;
-    margin-top: 64px;
+    margin-top: 4rem;
 }
 
 .smallTitles {
-    font-size: 55px;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
@@ -63,47 +63,18 @@ a:visited{
     width: 100%;
 }
 
-#unionContainer {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    border: rgb(238, 238, 238) 2px solid;
-    top: 138px;
-    right: 115px;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#unionContainer img {
-    height: 23px;
-    width: 23px;
-}
-
-#appleLogo {
-    height: 50px;
-    width: 50px;
-    padding-bottom: 8px;
-}
-
-#appleLogo img {
-    height: 100%;
-    width: 100%;
-    /* border: yellow 1px solid; */
-    margin-left: -15px;
-}
-
 #navbarContainer {
     /* border: solid 1px crimson; */
-    width: 650px;
-}
-
-#navbarContainer li {
-    margin-right: 48px;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 1px;
+    background-color: black;
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    margin-top: 64px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
 }
 
 #navbarContainer ul {
@@ -114,35 +85,73 @@ a:visited{
     align-items: center;
 }
 
+#navbarContainer li {
+    margin-right: 3rem;
+    font-weight: 400;
+    font-size: 1.13rem;
+    letter-spacing: 1px;
+}
+
+#appleLogo {
+    height: 3.13rem;
+    width: 3.13rem;
+    padding-bottom: 0.5rem;
+}
+
+#appleLogo img {
+    height: 100%;
+    width: 100%;
+    /* border: yellow 1px solid; */
+    margin-left: -0.94rem;
+}
+
+#unionContainer {
+    height: 3.13rem;
+    width: 3.13rem;
+    margin-left: 0.9rem;
+    border: rgb(238, 238, 238) 2px solid;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#unionContainer img {
+    height: 1.44rem;
+    width: 1.44rem;
+}
+
 #headerTexts {
     /* border: springgreen 1px solid; */
-    width: 650px;
+    width: 40.625rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
 }
 
 #category {
-    width: 420px;
-    height: 20px;
+    width: 26.25rem;
+    height: 1.25rem;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 0.88rem;
     font-weight: 300;
-    margin-bottom: 50px;
+    margin-bottom: 3.13rem;
     /* border: solid 1px crimson; */
 }
 
 #headerTitle{
-    width: 420px;
-    height: 30px;
-    font-size: 25px;
+    width: 26.25rem;
+    height: 1.875rem;
+    font-size: 1.57rem
     /* border: solid 1px crimson; */
 }
 
 #headerSubtitle {
-    width: 420px;
-    height: 160px;
-    font-size: 70px;
+    width: 26.25rem;
+    height: 10rem;
+    font-size: 4.375rem;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
     /* border: solid 1px crimson; */
 }
 
@@ -153,18 +162,18 @@ a:visited{
 }
 
 #headerDescription {
-    height: 62px;
-    width: 420px;
-    margin-top: 40px;
-    font-size: 22px;
+    height: 3.875rem;
+    width: 26.25rem;
+    margin-top: 2.5rem;
+    font-size: 1.38rem;
     opacity: 0.9;
     font-weight: 300;
 }
 
 #downContainer {
-    margin-top: 48px;
-    height: 50px;
-    width: 50px;
+    margin-top: 3rem;
+    height: 3.125rem;
+    width: 3.125rem;
     border:rgb(238, 238, 238) 1px solid;
     border-radius: 50px;
     display: flex;
@@ -174,7 +183,7 @@ a:visited{
 
 #downContainer img {
     position: relative;
-    top: 2px;
+    top: 0.125rem;
 }
 
 /***************************************************/
@@ -182,7 +191,7 @@ a:visited{
 /*************************************************/
 
 #products {
-    height: 665px;
+    height: 41.5625rem;
     width: 100%;
     background-color: rgb(238, 238, 238);
     color: black;
@@ -192,23 +201,23 @@ a:visited{
 }
 
 #productsTitle {
-    width: 1140px;
-    height: 60px;
+    width: 71.25rem;
+    height: 3.75rem;
     /* border: crimson 1px solid; */
 }
 
 #productsContent {
     /* border: cyan 1px solid; */
     display: flex;
-    width: 1140px;
-    height: 350px;
-    margin-top: 48px;
+    width: 71.25rem;
+    height: 21.875rem;
+    margin-top: 3rem;
 }
 
 #productsDescripiton {
-    height: 70px;
-    width: 240px;
-    font-size: 22px;
+    height: 4.375rem;
+    width: 15rem;
+    font-size: 1.375rem;
     opacity: 0.9;
     font-weight: 300;
     color: black;
@@ -216,8 +225,8 @@ a:visited{
 }
 
 #iPhone13Pro {
-    height: 350px;
-    width: 300px;
+    height: 21.875rem;
+    width: 18.75rem;
     position: absolute;
     /* border: blue 1px solid; */
 }
@@ -228,8 +237,8 @@ a:visited{
 }
 
 #iPhone13 {
-    height: 350px;
-    width: 300px;
+    height: 21.875rem;
+    width: 18.75rem;
     position: absolute;
     /* border: blue 1px solid; */
 }
@@ -240,24 +249,24 @@ a:visited{
 }
 
 .arrivalsTitle {
-    margin-top: 130px;
-    font-size: 55px;
+    margin-top: 8.125rem;
+    font-size: 3.44rem;
     position: relative;
-    margin-left: 45px;
+    margin-left: 2.8125rem;
     color: rgb(238, 238, 238);
 }
 
 #i13proContainer {
     /* border: 1px solid chartreuse; */
-    height: 350px;
-    width: 460px;
+    height: 21.875rem;
+    width: 28.75rem;
     text-align: center;
 }
 
 #i13Container {
     /* border: 1px solid yellow; */
-    height: 350px;
-    width: 460px;
+    height: 21.875rem;
+    width: 28.75rem;
     text-align: center;
 }
 
@@ -267,11 +276,11 @@ a:visited{
 
 #productsFooter {
     display: inline-flex;
-    width: 1140px;
-    height: 25px;
+    width: 71.25rem;
+    height: 1.5625rem;
     /* border: orangered 1px solid; */
     align-items: center;
-    margin-top: 48px;
+    margin-top: 3rem;
 }
 
 #productsPagination {
@@ -279,8 +288,8 @@ a:visited{
 }
 
 #productsNext {
-    margin-left: 150px;
-    font-size: 20px;
+    margin-left: 9.375rem;
+    font-size: 1.25rem;
     display: inline-flex;
 }
 
@@ -290,9 +299,9 @@ a:visited{
 }
 
 #productsRightContainer img {
-    margin-left: 9px;
-    height: 16px;
-    width: 9px;
+    margin-left: 0.5625rem;
+    height: 1rem;
+    width: 0.5625rem;
     transform: rotate(270deg);
 }
 
@@ -302,7 +311,7 @@ a:visited{
 
 
 #services {
-    height: 493px;
+    height: 30.8125rem;
     width: 100%;
     background-color: rgb(238, 238, 238);
     color: black;
@@ -317,43 +326,43 @@ a:visited{
 
 #servicesContainer {
     height: 100%;
-    width: 1140px;
+    width: 71.25rem;
     /* border: blue 1px solid; */
     display: flex;
 }
 
 #servicesTitle {
-    height: 210px;
-    width: 458px;
-    font-size: 45px;
+    height: 13.125rem;
+    width: 28.625rem;
+    font-size: 2.8125rem;
     /* border: orange 1px solid; */
 }
 
 #moreServices {
     display: flex;
     align-items: center;
-    margin-top: 50px;
-    font-size: 17px;
-    height: 25px;
-    width: 130px;
+    margin-top: 3.125rem;
+    font-size: 1.05rem;
+    height: 1.5625rem;
+    width: 8.125rem;
     /* border: blueviolet 1px solid; */
 }
 
 #moreServices img {
-    width: 10px;
-    height: 14px;
+    width: 0.625rem;
+    height: 0.875rem;
     position: relative;
-    left: 5px;
-    top: 2.5px;
+    left: 0.3rem;
+    top: 0.16rem;
     transform: rotate(270deg);
 }
 
 #servicesContent {
     /* border: crimson 1px solid; */
-    height: 400px;
-    width: 500px;
-    margin-top: 20px;
-    margin-left: 136px;
+    height: 25rem;
+    width: 31.25rem;
+    margin-top: 1.25rem;
+    margin-left: 8.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -361,47 +370,47 @@ a:visited{
 
 #appleMusic {
     height: 50%;
-    width: 200px;
+    width: 12.5rem;
     /* border: brown 1px solid; */
 }
 
 #appleTV {
     height: 50%;
-    width: 200px;
-    margin-left: 50px;
+    width: 12.5rem;
+    margin-left: 3.125rem;
     /* border: brown 1px solid; */
 }
 
 #appleNews {
     height: 50%;
-    width: 200px;
+    width: 12.5rem;
     /* border: brown 1px solid; */
 }
 
 #icloud {
     height: 50%;
-    width: 200px;
-    margin-left: 50px;
+    width: 12.5rem;
+    margin-left: 3.125rem;
     /* border: brown 1px solid; */
 }
 
 .serviceName {
-    font-size: 25px;
-    margin-bottom: 18px;
+    font-size: 1.57rem;
+    margin-bottom: 1.125rem;
     display: flex;
 }
 
 .serviceTitleSpan {
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .serviceLogo {
-    height: 30px;
-    width: 30px;
+    height: 1.875rem;
+    width: 1.875rem;
 }
 
 .serviceDescription {
-    font-size: 18px;
+    font-size: 1.125rem;
     opacity: 0.7;
 }
 
@@ -410,7 +419,7 @@ a:visited{
 /*************************************************/
 
 #shotOnIphone {
-    height: 1034px;
+    height: 64.625rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -420,15 +429,15 @@ a:visited{
 }
 
 #shotOnIphoneTitle {
-    width: 1140px;
-    height: 60px;
+    width: 71.25rem;
+    height: 3.75rem;
     /* border: crimson 1px solid; */
 }
 
 #shotOnIphoneDesc {
-    font-size: 18px;
+    font-size: 1.125rem;
     opacity: 0.7;
-    width: 800px;
+    width: 50rem;
     /* border: orange 1px solid; */
 }
 
@@ -436,7 +445,7 @@ a:visited{
     width: 100%;
     /* border: crimson 1px solid; */
     display: flex;
-    margin-top: 180px;
+    margin-top: 11.25rem;
     justify-content: center;
     align-items: center;
 }
@@ -454,60 +463,93 @@ a:visited{
     display: none;
 }
 
+.soiContainer{
+    transition: 1s;
+}
+
+
+#soi1Container {
+    transform: rotateZ(-8deg);
+}
+
+#soi1Container:hover {
+    transform: scale(1.2);
+} 
+
+#soi2Container {
+    transform: rotateZ(12deg);
+}
+
+#soi2Container:hover {
+    transform: scale(1.2);
+} 
+
+#soi3Container {
+    transform: rotateZ(2deg);
+}
+
+#soi3Container:hover {
+    transform: scale(1.2);
+} 
+
+.soiContainer:hover {
+    transition: 1s;
+}
+
 .soiContainer img {
-    height: 400px;
-    width: 350px;
+    height: 25rem;
+    width: 21.875rem;
     /* border: white 1px solid; */
     object-fit: contain;
 }
 
 #shotOnIphoneFooter {
     display: flex;
-    width: 1140px;
-    height: 200px;
-    margin-top: 80px;
+    width: 71.25rem;
+    height: 12.5rem;
+    margin-top: 5rem;
     /* border: palegreen 1px solid; */
 }
 
 #shotOnIphoneFooterTitle {
-    height: 60px;
-    width: 360px;
-    margin-bottom: 50px;
+    height: 3.75rem;
+    width: 22.5rem;
+    margin-bottom: 3.125rem;
     /* border: crimson 1px solid; */
 }
 
 #shotOnIphoneSubtitle {
-    font-size: 18px;
+    font-size: 1.125rem;
     opacity: 0.7;
-    width: 359px;
-    margin-left: 30px;
-    margin-top: 20px;
+    width: 22.4375rem;
+    margin-left: 1.875rem;
+    margin-top: 1.25rem;
 }
 
 #soiLearnMore {
     display: flex;
     align-items: center;
-    margin-top: 15px;
-    font-size: 17px;
-    height: 25px;
-    width: 130px;
+    margin-top: 0.9375rem;
+    font-size: 1.06rem;
+    height: 1.5625;
+    width: 8.125rem;
     /* border: blueviolet 1px solid; */
 }
 
 #soiLearnMore img {
-    width: 10px;
-    height: 14px;
+    width: 0.625rem;
+    height: 0.875rem;
     position: relative;
-    left: 5px;
-    top: 2.5px;
+    left: 0.3125rem;
+    top: 0.17rem;
     transform: rotate(270deg);
 }
 
 #shotOnIphonePagination {
     /* border: olivedrab 1px solid; */
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 128px;
+    width: 6.25rem;
+    margin-top: 1.25rem;
+    margin-left: 8rem;
 }
 
 #soiPages {
@@ -518,7 +560,7 @@ a:visited{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 0.75rem;
 }
 
 #soiLeft {
@@ -526,15 +568,15 @@ a:visited{
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(238, 238, 238);
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50px;
 }
 
 #soiLeft img {
     transform: rotate(90deg);
     position: relative;
-    left: -1px;
+    left: -0.0625rem;
 }
 
 #soiRight {
@@ -542,13 +584,13 @@ a:visited{
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(238, 238, 238);
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50px;
 }
 
 #soiRight img {
     transform: rotate(270deg);
     position: relative;
-    left: 1px;
+    left: 0.0625rem;
 }
