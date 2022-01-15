@@ -101,6 +101,7 @@ a:visited{
 #appleLogo img {
     height: 100%;
     width: 100%;
+    margin-top:0.125rem
     /* border: yellow 1px solid; */
     margin-left: -0.94rem;
 }
