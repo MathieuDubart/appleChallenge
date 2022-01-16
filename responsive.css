@@ -1,0 +1,414 @@
+@media screen and (max-device-width:1150px) {
+    :root {
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+
+    #headerContainer {
+        height: 60rem;
+    }
+}
+
+@media screen and (max-device-width:819px) {
+    :root {
+        font-size: 40%;
+    }
+
+    #headerContainer {
+        display: flex;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    #leftContainer {
+        margin-top: 35rem;
+        text-align: center;
+        background-image: url(img/mobileBG.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    #headerTexts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 110rem;
+    }
+
+    #category {
+        display: none;
+    }
+
+    #headerTitle {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    #headerSubtitle {
+        margin-top: 3rem;
+        font-size: 6rem;
+    }
+
+    #headerDescription {
+        font-size: 2rem;
+        margin-top: 4rem;
+        font-weight: 500;
+    }
+
+    #navbarContainer {
+        display: none;
+    }
+
+    #rightContainer {
+        display: none;
+    }
+
+    .bigTitles {
+        margin-left: 0;
+        font-size: 6rem;
+    }
+
+/************************** Products ***************************/
+
+
+    #products {
+        /* border: 1px solid crimson; */
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    
+    #productsTitle {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        text-align: center;
+    }
+
+    #productsContent {
+        margin-top: 14px;
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #productsDescripiton {
+        width: 60%;
+        margin-left: 0;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #servicesTitle {
+        margin-left: 3rem;
+    }
+
+    #iPhone13Pro {
+        height: 40rem;
+        width: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -3.5rem;
+    }
+
+    #i13proContainer {
+        margin-top: 0%
+    }
+
+    .arrivalsTitle {
+        font-size: 5rem;
+        margin-top: 38rem;
+        margin-left: 0;
+        color: black;
+    }
+
+    #iPhone13 {
+        display: none;
+    }
+
+    #i13Container {
+        display: none;
+    }
+
+    #productsFooter {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        margin-top: 3rem;
+    }
+
+    #productsPagination {
+        font-size: 2rem;
+    }
+
+    #productsNext {
+        font-size: 2rem
+    }
+
+/************************** Services ***************************/
+
+    #services {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #servicesContainer {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #servicesTitle {
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 0;
+        font-size: 5rem;
+    }
+    
+    #moreServices {
+        text-align: center;
+        width: 11rem;
+        font-size: 2rem;
+        margin-left: calc(50% - 5.5rem);
+    }
+
+    #servicesContent {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 75%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #appleMusic {
+        width: 80%;
+    }
+
+    #appleNews {
+        width: 80%;
+    }
+
+    #icloud {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    #appleTV {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    .serviceName {
+        font-size: 4rem;
+    }
+
+    .serviceLogo {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .serviceDescription {
+        font-size: 3rem;
+    }
+
+/************************** Shot on iPhone ***************************/
+
+    #shotOnIphone {
+        height: 160vh;
+    }
+    
+    #shotOnIphoneTitle {
+        width: 100%;
+        text-align: center;
+        height: 4rem;
+    }
+
+    #shotOnIphoneDesc {
+        width: 100%;
+        margin-top: 3rem;
+        font-size: 3rem;
+
+    }
+
+    #soiLearnMore{
+        width: 100%;
+        font-size: 2.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    #shotOnIphonePicturesContainer {
+        flex-direction: column;
+        height: 31%;
+        margin-top: 27rem;
+    }
+
+    #shotOnIphonePictures {
+        height: 60rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .soiContainer {
+        margin-top: 3rem;
+    }
+
+    #soi1Container {
+        transform: none;
+    }
+    
+    #soi1Container:hover {
+        transform: none;
+    } 
+    
+    #soi2Container {
+        transform: none;
+    }
+    
+    #soi2Container:hover {
+        transform: none;
+    } 
+    
+    #soi3Container {
+        transform: none;
+    }
+    
+    #soi3Container:hover {
+        transform: none;
+    } 
+
+    #soi4Container {
+        display: flex;
+    }
+
+    .soiContainer img {
+        height: 25rem;
+        width: 20rem;
+    }
+
+    #shotOnIphoneFooter {
+        height: 25rem;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 15rem;
+    }
+
+    #shotOnIphoneFooterTitle{
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    #shotOnIphoneSubtitle {
+        width: 100%;
+        font-size: 3rem;
+        margin-left: 0;
+    }
+
+    #shotOnIphonePagination {
+        margin-left: 0;
+        margin-top: 1.75rem;
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #soiSwiper {
+        width: 10rem;
+        /* border: 1px solid white; */
+        text-align: center;
+    }
+
+/************************** Footer ***************************/
+
+    #footer {
+        margin-top: -10rem;
+        height: 100vh;
+        /* overflow-x: hidden; */
+    }
+
+    #linksContainer {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footerLogo {
+        margin-top: 0;
+        margin-left: 0;
+        height: 6rem;
+        width: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    #footerLogo img {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #linksContainer ul {
+        margin-left: 0;
+        margin-top: 1.5rem;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    #linksContainer li {
+        width: 100%;
+    }
+
+    #planetRespect li {
+        width: 100%;
+    }
+
+    #listImgContainer {
+        object-fit: contain;
+        margin-bottom: 3rem;
+    }
+
+    .listTitles {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    #copyrights {
+        flex-direction: column;
+        margin-top: 8rem;
+        font-size: 2rem;
+        width: 100%;
+    }
+} 
