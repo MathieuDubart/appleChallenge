@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    cursor: none;
 }
 
 body {
@@ -35,6 +36,28 @@ a:visited{
 .smallTitles {
     font-size: 3.5rem;
     font-weight: 500;
+}
+
+#circularcursor {
+    background-color: rgba(193, 193, 193, 0.408);
+    /* border:1px solid black;     */
+    height:16px;
+    width:16px;
+    border-radius:50%;
+    position: absolute;
+    z-index: 11;
+    pointer-events: none;
+}
+
+.circle {
+    position: absolute;
+    background-color: rgba(113, 109, 109, 0.279) ;
+    /* border: solid 1px rgb(0, 0, 0); */
+    width: 32px; 
+    height: 32px; 
+    border-radius: 50%;
+    z-index: 11;  
+    pointer-events: none;
 }
 
 #headerContainer {
