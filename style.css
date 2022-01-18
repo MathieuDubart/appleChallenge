@@ -39,7 +39,7 @@ a:visited{
 }
 
 #circularcursor {
-    background-color: rgba(193, 193, 193, 0.408);
+    background-image: linear-gradient(rgb(86, 131, 255), rgb(43, 220, 90));
     /* border:1px solid black;     */
     height:16px;
     width:16px;
