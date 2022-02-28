@@ -6,6 +6,10 @@
     cursor: none;
 }
 
+html {
+    scroll-behavior: smooth;   
+}
+
 body {
     background-color: black;
     color: rgb(238, 238, 238);
